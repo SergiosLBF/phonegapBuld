@@ -22,15 +22,13 @@
     http://docs.blackberry.com/en/developers/deliverables/15274/
 -->
 
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.Fred's Amazing"
-        version   = "150.999">
-    <name>Sergios's Test App</name>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+	version="1.0.0.0" id="cordovaExample">
 
-    <author href="http://leoburnett.de" email="sergio.georgalli@leoburnett.de">
-        Sergios Georgalli
-    </author>
+  <name>cordovaExample</name>
+
+  <author>Your Name Here</author>
 
   <description>
        A sample Apache Cordova application that responds to the deviceready event.
@@ -38,18 +36,7 @@
     
   <license href="http://opensource.org/licenses/alphabetical">
   </license>
-  
-  <feature name="http://api.phonegap.com/1.0/device" />
-	<preference name="phonegap-version" value="2.1.0" />
-	<!-- orientation with possible values default, landscape, or portrait -->
-    <preference name="orientation"      value="portrait" />
-	<!-- target-device with possible values handset, tablet, or universal -->
-    <preference name="target-device"    value="universal" />
-	<!-- fullscreen with values true or false -->
-    <preference name="fullscreen"       value="false" />
-	<!--values true or false if set to true, app will terminate when suspended, for example when home button is pressed -->
-	<preference name="exit-on-suspend" value="true" />
-	
+
   <!-- Cordova API -->
   <feature id="blackberry.system" required="true" version="1.0.0.0" />
   <feature id="org.apache.cordova" required="true" version="1.0.0" />
@@ -87,7 +74,7 @@
   <access subdomains="true" uri="*" />
 
   <icon rim:hover="false" src="res/icon/blackberry/icon-80.png" />
-  <icon rim:hover="true" src="res/icon/blackberry/icon-81.png" />
+  <icon rim:hover="true" src="res/icon/blackberry/icon-80.png" />
 
   <rim:loadingScreen backgroundColor="#CFCFCF"
                      foregroundImage="res/screen/blackberry/screen-225.png"
