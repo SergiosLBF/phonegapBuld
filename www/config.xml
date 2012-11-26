@@ -24,9 +24,9 @@
 
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-	version="1.0.0.0" id="cordovaExample">
+	version="1.0.0.0" id="Acceleration">
 
-  <name>cordovaExample</name>
+  <name>Acceleration</name>
 
   <author>Your Name Here</author>
 
