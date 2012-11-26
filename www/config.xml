@@ -22,11 +22,12 @@
     http://docs.blackberry.com/en/developers/deliverables/15274/
 -->
 
-<widget xmlns="http://www.w3.org/ns/widgets"
-        xmlns:rim="http://www.blackberry.com/ns/widgets"
-	version="1.0.0.0" id="cordovaExample">
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.Fred's Amazing"
+        version   = "150.999">
+    <name>Sergios's Test App</name>
 
-  <name>cordovaExample</name>
 
   <author>Your Name Here</author>
 
