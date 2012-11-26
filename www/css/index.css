@@ -37,7 +37,7 @@ body {
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:18px;
+    font-size:24px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -47,17 +47,20 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
-    position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:50%;
-    height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
-    text-align:center;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+	background: url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+	position: absolute;             /* position in the center of the screen */
+	left: 220px;
+	top: 183px;
+	height: 50px;                   /* text area height */
+	width: 225px;                   /* text area width */
+	text-align: center;
+	padding: 180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+	margin: -115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
+								 
 }
+
+a {display:block; background-color:#999; border:#666 thin solid; color:#FFF; padding:2px;}
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {

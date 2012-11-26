@@ -40,11 +40,11 @@
   <feature name="http://api.phonegap.com/1.0/device" />
 	<preference name="phonegap-version" value="2.1.0" />
 	<!-- orientation with possible values default, landscape, or portrait -->
-    <preference name="orientation"      value="portrait" />
+    <preference name="orientation" value="portrait" />
 	<!-- target-device with possible values handset, tablet, or universal -->
-    <preference name="target-device"    value="universal" />
+    <preference name="target-device" value="universal" />
 	<!-- fullscreen with values true or false -->
-    <preference name="fullscreen"       value="false" />
+    <preference name="fullscreen" value="false" />
 	<!--values true or false if set to true, app will terminate when suspended, for example when home button is pressed -->
 	<preference name="exit-on-suspend" value="true" />
 	
